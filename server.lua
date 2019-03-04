@@ -72,7 +72,7 @@ elseif method == "Standard" then
     if logging == 1 or logging == 2 then
       print('Checking ' .. mode .. ' entry for ' .. steamId)
     end
-    if string.find(identifiers[1], "steam") then
+    if string.find(GetPlayerIdentifiers(source)[1], "steam") then
       local check = inArray(steamId, auths)
   
       if mode ~= 'whitelist' then
