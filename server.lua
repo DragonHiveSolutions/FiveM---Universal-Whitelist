@@ -83,7 +83,7 @@ elseif method == "Standard" then
         setReason(message)
         CancelEvent()
         if logging == 1 or logging == 2 then
-        print(steamid .. " not found in database. Kicking...")
+        print(steamId .. " not found in database. Kicking...")
         end
       end
     else 
