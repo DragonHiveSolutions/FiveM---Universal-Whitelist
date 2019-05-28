@@ -36,7 +36,7 @@ if method == "SQL" then
         print('Steam not activated for ' .. name)
       end
     end
-    setReason('cba')
+    setReason('Steam not activated')
     CancelEvent()
   end)
   array = MySQL.Sync.fetchAll('SELECT * FROM user_whitelist')
@@ -83,7 +83,7 @@ elseif method == "Standard" then
         setReason(message)
         CancelEvent()
         if logging == 1 or logging == 2 then
-        print(steamId .. " not found in database. Kicking...")
+        print(steamid .. " not found in database. Kicking...")
         end
       end
     else 

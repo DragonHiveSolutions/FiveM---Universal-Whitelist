@@ -2,12 +2,12 @@
 -- This config file was created to help you configure the code in server.lua and client.lua a lot easier. Please do NOT edit those files.
 
 auths = {
-    'steam:11000010dcbcc9b', -- Change this and add more lines to add steamID's if your method is set to Standard.
+    '76561198191725723', -- Change this and add more lines to add steamID's if your method is set to Standard.
 }
 
 --[[ Basic Settings ]]--
 
-method = "Standard" -- This allows you to toggle between SQL mode and Standard mode. Change to "Standard" to disable SQL Whitelisting.
+method = "SQL" -- This allows you to toggle between SQL mode and Standard mode. Change to "Standard" to disable SQL Whitelisting.
 
 
 message = "You are not whitelisted. Please apply at www.changeme.com." -- This is the message that is shown if the authentication was unsuccesful.
@@ -36,4 +36,4 @@ Checking whitelist entry for steam:steamhexhere
 
 ]]--
 
-logging = 3
+logging = 1
